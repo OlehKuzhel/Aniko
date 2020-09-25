@@ -51,6 +51,16 @@ var sliderExample = new Swiper('.example-slider__photos', {
             nextEl: '.example--next',
             prevEl: '.example--prev',
         },
+         pagination: {
+            el: '.example-pagination',
+            type: 'bullets',
+            clickable: true,
+        },
+        on: {
+            init: function (argument) {
+
+            }
+        }
     });
 
 var sliderMontaz = new Swiper('.montaz-slider__photos', {
@@ -66,6 +76,16 @@ var sliderMontaz = new Swiper('.montaz-slider__photos', {
             nextEl: '.montaz--next',
             prevEl: '.montaz--prev',
         },
+        pagination: {
+            el: '.montaz-pagination',
+            type: 'bullets',
+            clickable: true,
+        },
+        on: {
+            init: function (argument) {
+                
+            }
+        }
     });
 
 
