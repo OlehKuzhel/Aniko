@@ -57,8 +57,16 @@ var sliderExample = new Swiper('.example-slider__photos', {
             clickable: true,
         },
         on: {
-            init: function (argument) {
-
+            init: function () {
+                $length = this.slides.length
+                $activeslide = this.activeIndex + 1
+                $('.example-slider__slides .all').text('0'+$length)
+                $('.example-slider__slides .active').text('0'+$activeslide)
+                // console.log($length)
+            },
+            slideChange: function () {
+                $activeslide = this.activeIndex + 1
+                $('.example-slider__slides .active').text('0'+$activeslide)
             }
         }
     });
@@ -82,8 +90,16 @@ var sliderMontaz = new Swiper('.montaz-slider__photos', {
             clickable: true,
         },
         on: {
-            init: function (argument) {
-                
+            init: function () {
+                $length = this.slides.length
+                $activeslide = this.activeIndex + 1
+                $('.montaz-slider__slides .all').text('0'+$length)
+                $('.montaz-slider__slides .active').text('0'+$activeslide)
+                // console.log($length)
+            },
+            slideChange: function () {
+                $activeslide = this.activeIndex + 1
+                $('.montaz-slider__slides .active').text('0'+$activeslide)
             }
         }
     });

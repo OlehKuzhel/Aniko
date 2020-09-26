@@ -2427,7 +2427,7 @@ input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 
 .section-example .example-slider__slides span.del { margin: 0 .4rem; }
 
-.section-example .example-slider__slides span.active { color: #F97C09; }
+.section-example .example-slider__slides span.active { width: 4.8rem; color: #F97C09; }
 
 .section-advant { padding: 20rem 0 12rem 0; }
 
@@ -2573,7 +2573,7 @@ input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 
 .section-montaz .montaz-slider__slides span.del { margin: 0 .4rem; }
 
-.section-montaz .montaz-slider__slides span.active { color: #F97C09; }
+.section-montaz .montaz-slider__slides span.active { width: 4.8rem; color: #F97C09; }
 
 .section-about { padding: 24rem 0 12rem 0; }
 
